@@ -3,9 +3,9 @@ const { Client, GatewayIntentBits, Partials, EmbedBuilder, ButtonBuilder, Button
 const fs = require('fs');
 
 // ✅ IDs dos Canais
-const canalPonto = '1380998543254356089';
-const canalLogs = '1380998559335448637';
-const canalConsulta = '1380998324265418872';
+const canalPonto = 'id_canal';
+const canalLogs = 'id_canal';
+const canalConsulta = 'id_canal';
 
 const client = new Client({
     intents: [
@@ -302,14 +302,14 @@ client.on('messageCreate', async message => {
 // 🔧 Sistema de Ticket - Corregedoria
 const { ChannelType, PermissionFlagsBits } = require('discord.js');
 
-const canalTicket = '1380998290899865690';
-const categoriaTicket = '1383777816109256845';
-const canalLogsTicket = '1380998487415455864';
+const canalTicket = 'id_canal';
+const categoriaTicket = 'id_canal';
+const canalLogsTicket = 'id_canal';
 const cargosAutorizados = [
-    '1380998072628281414',
-    '1380998057562341477',
-    '1380998061429624922',
-    '1380998210885124167'
+    'cargo',
+    'cargo',
+    'cargo',
+    'cargo'
 ];
 
 client.on('ready', async () => {
