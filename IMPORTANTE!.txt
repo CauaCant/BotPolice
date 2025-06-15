@@ -1,0 +1,3 @@
+Crie um arquivo com o nome .env e dentro dele coloque conforme abaixo!
+
+TOKEN=coloque_aqui_seu_token_do_bot
